@@ -1,0 +1,15 @@
+body {
+  color: #D1D1D1;
+  background-color: #000;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav {
+  list-style: none;
+}
+/*# sourceMappingURL=style.css.map */
