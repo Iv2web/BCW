@@ -8,11 +8,12 @@ body {
 }
 
 .section_index {
-  height: 500px;
-  background-image: url(/images/bg.png);
+  height: 98vh;
+  background: #000000 url("/images/bg.png") no-repeat top right;
 }
 
 .section_menu {
+  height: 98vh;
   background-color: #FFDA00;
 }
 
@@ -35,12 +36,14 @@ body {
   text-decoration: none;
   color: #D1D1D1;
   font-size: 2.4rem;
+  font-weight: bold;
 }
 
 .nav_menu {
   font-weight: bold;
   list-style: none;
   text-align: center;
+  margin: 10%;
 }
 
 .nav_menu__link {
@@ -53,5 +56,39 @@ body {
   margin-left: 10%;
   margin-top: 20%;
   font-size: 18px;
+}
+
+.menu__link {
+  color: #000000;
+}
+
+.err {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  color: #000000;
+  padding-top: 5%;
+  font-weight: bold;
+}
+
+.err__txt {
+  font-size: 64px;
+  font-variant-caps: all-petite-caps;
+  margin: 0;
+}
+
+.err__num {
+  font-size: 144px;
+  margin: 0;
+}
+
+.err__sorry {
+  font-size: 24px;
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
